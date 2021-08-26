@@ -149,6 +149,14 @@ span {
   padding: 6px 0 0 0;
 }
 
+
+@media(max-width: 500px) {
+  #header #logo {
+    padding: 0px 0 0 0;
+  }
+}
+
+
 #header #logo h1 {
   color: #505050;
   font-family: "Philosopher", sans-serif;
@@ -597,8 +605,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
-  color: #27d4e6;
-  text-shadow: 2px 2px #0000007a;
+  color: #615d60;
 }
 
 #about-me .about-content ul li {
@@ -705,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 2px
 }
 
-.card .card-content .social-icons {
+/* .card .card-content .social-icons {
   list-style: none;
   padding: 0
 }
@@ -727,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .card .card-content .social-icons li a span {
   font-size: 1.3rem
-}
+} */
 
 @media(max-width: 991.5px) {
   .container {
@@ -737,6 +744,15 @@ body.mobile-nav-active #mobile-nav-toggle i {
   .container .row .col-lg-4 {
       margin: 20px 0px
   }
+}
+
+.btncard{
+  margin-top: 15px;
+}
+
+.btncustom{
+  color:black;
+  border:black;
 }
 
 
